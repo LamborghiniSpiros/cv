@@ -4,10 +4,10 @@ body {
 }
 
 h1 {
-  color: #f3f9fb;
+  color: #7fa99b;
 }
   h2 {
-    color: #233142;
+    color: #7fa99b;
   }
 
   h3 {
@@ -27,8 +27,19 @@ h1 {
     }
   ul li::before {
     content: "☯";
-    color: white;
+    color: #82acff;
     font-weight: bold;
     width: 1em;
     margin-left: -1em;
+    margin: 0;
+    padding: 30;
+  }
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: hotpink;
   }
