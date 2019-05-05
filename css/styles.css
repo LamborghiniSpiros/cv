@@ -2,21 +2,33 @@ body {
   background-color: white;
   background-image: url(https://cdn.wallpapersafari.com/38/14/ZG5qnJ.jpg);
 }
+
 h1 {
-  color: white;
-
-h2 {
-    color: black;
+  color: #f3f9fb;
+}
+  h2 {
+    color: #233142;
   }
-}
-h3 {
-  color: grey;
-}
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #00334e;
-  border-width: 5px;
-  width: 4%;
-}
+  h3 {
+    color: #393e46;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #00334e;
+    border-width: 5px;
+    width: 10%;
+  }
+
+  ul {
+    list-style-type: none;
+    }
+  ul li::before {
+    content: "☯";
+    color: white;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+  }
