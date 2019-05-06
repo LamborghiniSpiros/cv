@@ -29,12 +29,11 @@ ul {
 
 ul li::before {
   content: "☯";
-  color: #82acff;
-  font-weight: bold;
-  width: 1em;
+  color: #c8e6f5;
+  font-weight: normal;
+  width: 4em;
+  margin: 20;
   margin-left: -1em;
-  margin: 0;
-  padding: 30;
 }
 
 a:link {
